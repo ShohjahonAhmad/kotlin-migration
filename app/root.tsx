@@ -14,6 +14,7 @@ import Footer from "./components/footer/index";
 import Header from "./components/header";
 
 export const links: Route.LinksFunction = () => [
+  { rel: "icon", href: "/favicon.ico" },
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
   {
     rel: "preconnect",
