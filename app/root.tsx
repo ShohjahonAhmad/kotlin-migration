@@ -12,6 +12,9 @@ import type { Route } from "./+types/root";
 import "./app.css";
 import Footer from "./components/footer/index";
 import Header from "./components/header";
+import kotlin from "highlight.js/lib/languages/kotlin";
+import hljs from "highlight.js/lib/core";
+hljs.registerLanguage("kotlin", kotlin);
 
 export const links: Route.LinksFunction = () => [
   { rel: "icon", href: "/favicon.ico" },
