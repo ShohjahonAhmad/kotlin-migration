@@ -12,20 +12,14 @@ Migration of the Kotlin homepage to React Router 7 with Server-Side Rendering.
 npm install
 ```
 
-### Development
-
-```bash
-npm run dev
-```
-
-Available at `http://localhost:5173`
-
-### Production
+### Build and Run
 
 ```bash
 npm run build
 npm start
 ```
+
+Available at `http://localhost:3000`
 
 ### Docker
 
