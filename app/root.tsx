@@ -13,6 +13,10 @@ import "./app.css";
 import Footer from "./components/footer/index";
 import Header from "./components/header";
 
+export const links: Route.LinksFunction = () => [
+  { rel: "icon", href: "/favicon.ico" },
+];
+
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
