@@ -2,8 +2,6 @@
 
 Migration of the Kotlin homepage to React Router 7 with Server-Side Rendering.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/ShohjahonAhmad/kotlin-migration)
-
 ## Getting Started
 
 ### Installation
