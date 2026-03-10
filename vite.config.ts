@@ -7,6 +7,14 @@ export default defineConfig({
     tailwindcss(),
     reactRouter(),
   ],
+
+  css: {
+    devSourcemap: true,
+  },
+
+  build: {
+    sourcemap: true,
+  },
   
   resolve: {
     alias: {
